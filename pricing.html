@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+    <title>Photosnap</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <img src="images\shared\desktop\logo.svg" class="nav--logo" alt="PhotoShot Logo">
+        </a>
+        <div class="nav--links default">
+            <a href="stories.html"><div class="nav--link">STORIES</div></a>
+            <a href="features.html"><div class="nav--link">FEATURES</div></a>
+            <a href="pricing.html"><div class="nav--link">PRICING</div></a>
+        </div>
+        <a href="error.html"><button class="nav--button mainButton default">GET AN INVITE</button></a>
+        <div class="hamburgerMenu mobile" id="hamburgerMenu">
+            <span id="span1" class="span1"></span>
+            <span id="span2" class="span2"></span>
+        </div>
+    </nav>
+    <div class="mobileNav mobile" id="mobileNav">
+        <div class="mobileNav--links">
+            <a href="stories.html"><div class="nav--link">STORIES</div></a>
+            <a href="features.html"><div class="nav--link">FEATURES</div></a>
+            <a href="pricing.html"><div class="nav--link">PRICING</div></a>
+        </div>
+        <div class="separator"></div>
+        <button class="nav--button mainButton">GET AN INVITE</button>
+    </div>
+    <div class="variant--herosection">
+        <section class="sectionLeft">
+            <div class="text--content">
+                <h1 class="content--h1">PRICING</h1>
+                <p class="content--paragraph">Create a your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos.</p>
+            </div>
+            <img class="image--content" src="images/pricing/desktop/hero.jpg" style="object-position: 50% 0px;"></img>
+        </section>
+    </div>
+    <div class="price--compareContainer">
+        <div class="toggle--container">
+            <span class="toggle--span">Monthly</span>
+            <div class="toggle" id="toggle">
+                <div class="toggle--ball" id="toggle--ball"></div>
+            </div>
+            <span class="toggle--span spanToggle">Yearly</span>
+        </div>
+        <div class="price--optionsContainer">
+            <div class="price--option">
+                <p>Basic</p>
+                <p>Includes basic usage of our platform.<br>Recommended for new and aspiring<br>photographers.</p>
+                <p class="price">$19.00</p>
+                <p class="pricing--period">per month</p>
+                <a href="error.html"><button>PICK PLAN</button></a>
+            </div>
+            <div class="price--option primaryPriceOption">
+                <p>Pro</p>
+                <p>More advanced features available.<br>Recommended for photography<br>veterans and professionals.</p>
+                <p class="price">$39.00</p>
+                <p class="pricing--period">per month</p>
+                <a href="error.html"><button>PICK PLAN</button></a>
+            </div>
+            <div class="price--option">
+                <p>Business</p>
+                <p>Additional features available such as<br>more detailed metrics. Recommended<br>for business owners.</p>
+                <p class="price">$99.00</p>
+                <p class="pricing--period">per month</p>
+                <a href="error.html"><button>PICK PLAN</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="compare--container">
+        <p class="compare--header">COMPARE</p>
+        <div class="compare--table">
+            <div>THE FEATURES</div>
+            <div>BASIC</div>
+            <div>PRO</div>
+            <div>BUSINESS</div>
+            <span id="mainSpan"></span>
+            <div>UNLIMITED STORY POSTING</div>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <span></span>
+            <div>UNLIMITED PHOTO UPLOAD</div>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <span></span>
+            <div>EMBEDDING CUSTOM CONTENT</div>
+            <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <span></span>
+            <div>CUSTOMIZE METADATA</div>
+            <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <span></span>
+            <div>ADVANCED METRICS</div>
+            <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+            <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <span></span>
+            <div>PHOTO DOWNLOADS</div>
+            <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+            <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <span></span>
+            <div>SEARCH ENGINE INDEXING</div>
+            <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+            <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <span></span>
+            <div>CUSTOM ANALYTICS</div>
+            <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+            <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+            <img src="images/pricing/desktop/check.svg"></img>
+            <span></span>
+        </div>
+        <div class="moblieCompare--table">
+            <p>THE FEATURES</p>
+            <span id="mobileMainSpan"></span>
+            <div class="compare--row">
+                <p>UNLIMITED STORY POSTING</p>
+                <div class="compare--types">
+                    <p>BASIC</p>
+                    <p>PRO</p>
+                    <p>BUSINESS</p>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                </div>
+            </div>
+            <span></span>
+            <div class="compare--row">
+                <p>UNLIMITED PHOTO UPLOAD</p>
+                <div class="compare--types">
+                    <p>BASIC</p>
+                    <p>PRO</p>
+                    <p>BUSINESS</p>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                </div>
+            </div>
+            <span></span>
+            <div class="compare--row">
+                <p>EMBEDDING CUSTOM CONTENT</p>
+                <div class="compare--types">
+                    <p>BASIC</p>
+                    <p>PRO</p>
+                    <p>BUSINESS</p>
+                    <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                </div>
+            </div>
+            <span></span>
+            <div class="compare--row">
+                <p>CUSTOMIZE METADATA</p>
+                <div class="compare--types">
+                    <p>BASIC</p>
+                    <p>PRO</p>
+                    <p>BUSINESS</p>
+                    <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                </div>
+            </div>
+            <span></span>
+            <div class="compare--row">
+                <p>ADVANCED METRICS</p>
+                <div class="compare--types">
+                    <p>BASIC</p>
+                    <p>PRO</p>
+                    <p>BUSINESS</p>
+                    <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+                    <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                </div>
+            </div>
+            <span></span>
+            <div class="compare--row">
+                <p>PHOTO DOWNLOADS</p>
+                <div class="compare--types">
+                    <p>BASIC</p>
+                    <p>PRO</p>
+                    <p>BUSINESS</p>
+                    <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+                    <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                </div>
+            </div>
+            <span></span>
+            <div class="compare--row">
+                <p>SEARCH ENGINE INDEXING</p>
+                <div class="compare--types">
+                    <p>BASIC</p>
+                    <p>PRO</p>
+                    <p>BUSINESS</p>
+                    <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+                    <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                </div>
+            </div>
+            <span></span>
+            <div class="compare--row">
+                <p>CUSTOM ANALYTICS</p>
+                <div class="compare--types">
+                    <p>BASIC</p>
+                    <p>PRO</p>
+                    <p>BUSINESS</p>
+                    <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+                    <img src="images/pricing/desktop/check.svg" class="hideCheck"></img>
+                    <img src="images/pricing/desktop/check.svg"></img>
+                </div>
+            </div>
+            <span></span>
+        </div>
+    </div>
+    <div class="beta--banner">
+        <div class="beta--bannerTitle">WE'RE IN BETA.<br>GET YOUR INVITE <br>TODAY!</div>
+        <a class="button--content" href="error.html">
+            <button class="inviteButton mainButton">GET AN INVITE</button>
+            <img src="images/shared/desktop/arrow.svg" class="inviteArrow whiteArrow">
+        </a>
+    </div>
+    <footer>
+        <div class="footer--LHS">
+            <img src="images\shared\desktop\logoWhite.svg" class="footer--logo" alt="PhotoShot Logo">
+            <div class="footer--links">
+                <a href="index.html"><div class="footer--link">HOME</div></a>
+                <a href="stories.html"><div class="footer--link">STORIES</div></a>
+                <a href="features.html"><div class="footer--link">FEATURES</div></a>
+                <a href="pricing.html"><div class="footer--link">PRICING</div></a>
+            </div>
+            <div class="footer--socials">
+                <a href="https://www.facebook.com/"><img src="images/shared/desktop/facebook.svg" alt="social media icon"></a>
+                <a href="https://www.youtube.com/"><img src="images/shared/desktop/youtube.svg" alt="social media icon"></a>
+                <a href="https://www.twitter.com/"><img src="images/shared/desktop/twitter.svg" alt="social media icon"></a>
+                <a href="https://www.pinterest.com/"><img src="images/shared/desktop/pinterest.svg" alt="social media icon"></a>
+                <a href="https://www.instagram.com/"><img src="images/shared/desktop/instagram.svg" alt="social media icon"></a>
+            </div>
+        </div>
+        <div class="footer--RHS">
+            <a class="button--content" href="error.html">
+                <button class="inviteButton mainButton">GET AN INVITE</button>
+                <img src="images/shared/desktop/arrow.svg" class="inviteArrow whiteArrow">
+            </a>
+            <p class="copyright">Copyright 2023. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
