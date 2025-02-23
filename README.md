@@ -1,6 +1,10 @@
 ![Image](https://github.com/user-attachments/assets/28e8f30f-1b16-4266-ac19-26c211035394)
 # PhotoSnap Website
 
+## Disclaimer
+This was an older project of mine tailored to improve my skills in developing a frontend off a premade design. It ultimately hepled me understand how to work on frontends with precision and responsiveness.
+
+## Intro
 Fully responsive and dynamic marketing site for a photo-sharing app that utilises complex and engaging CSS for a unique content flow. Project from www.frontendmentor.io which provided the design specifications and basic graphics to showcase the desired final product. All the images and icons were provided alongside the design as part of their premium subscription. The main aim of the project was to showcase high-level CSS and ability to convert complex designs into a functional and interactive final product. 
 
 ## Potential Improvements
