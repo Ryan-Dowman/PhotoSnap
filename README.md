@@ -5,7 +5,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Showcase](#showcase)
-- [Room for Improvements](#room-for-improvements)
+- [Room for Improvement](#room-for-improvement)
 - [Notes](#notes)
 
 ## Introduction
@@ -19,7 +19,7 @@ Without showcasing every page I will demostrate one of the main focus points of 
 
 ![Image](https://github.com/user-attachments/assets/5526456a-b9ec-4a0c-ad53-e04d29f1453a)
 
-## Room for Improvements
+## Room for Improvement
 The project went quite well as the efficiency of the production was high throughout, although several improvements that could have been made. One such improvement would have been a more strategic approach to how the initial groundwork was built; as much of the website followed a similar layout I could have allowed cut down on CSS required by better acknowledging this similarities and creating more universal classes to allow easy sharing of styling properties. React also would have been a great framework to utilise in this project especially for the creation of stories and to allow higher maintenance and possible expansion of the project. This though was a purposeful decision as the primary focus of the project was CSS and HTML, hence introducing React into the project would dilute attention and resources from that core focus. Overall, the project did smoothly as I was able to handle the complex responsiveness needed for the project through display grid and more modern features of CSS such as clamp to handle content resizing more dynamically. 
 
 ## Notes
