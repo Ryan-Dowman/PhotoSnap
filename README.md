@@ -16,6 +16,7 @@ Fully responsive and dynamic marketing site for a photo-sharing app that utilise
 ## Showcase
 ### Index
 Without showcasing every page I will demostrate one of the main focus points of the project through the index page. As previously mentioned the goal was to demonstrate clean and gradual transitioning between all valid device sizes. To accomplish this I went for a heavy use of CSS grid and followed the design specifications to utmost precision to ensure the content works well at any size. Alongside this all animations, hover effects and JS functionality were implemented just as the design specified.
+
 ![Image](https://github.com/user-attachments/assets/5526456a-b9ec-4a0c-ad53-e04d29f1453a)
 
 ## Room for Improvements
